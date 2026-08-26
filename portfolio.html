@@ -1,450 +1,1059 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Hari Prasath | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Hari Prasath R | Full Stack Developer</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="portfolio.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- Devicon -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+  >
+
+  <!-- Portfolio CSS -->
+  <link rel="stylesheet" href="portfolio.css">
+
+  <!-- Scroll Reveal -->
   <script src="https://unpkg.com/scrollreveal"></script>
-
 </head>
 
 <body>
-<!-- ================= NAVBAR ================= -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top custom-navbar">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="#">Hari Prasath</a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+
+  <div class="container">
+
+    <a class="navbar-brand" href="#home">
+      Hari Prasath
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav gap-3">
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNav"
+    >
+
+      <ul class="navbar-nav">
+
         <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link active" href="#home">
+            Home
+          </a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#about">
+            About
+          </a>
         </li>
-        
+
         <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#skills">
+            Skills
+          </a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#projects">
+            Projects
+          </a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#contact">
+            Contact
+          </a>
         </li>
+
       </ul>
+
     </div>
   </div>
 </nav>
-<!-- ================= HERO ================= -->
-<section id="home" class="min-h-screen flex items-center bg-gray-50 padding">
+
+
+<!-- =====================================================
+     HERO SECTION
+===================================================== -->
+
+<section id="home" class="hero-section">
+
   <div class="container">
+
     <div class="row align-items-center">
 
-      <div class="col-lg-6 text-center text-lg-start">
-        <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-          Hi, I'm Hari Prasath R👋
-        </h1>
-        <p class="text-gray-600 mb-4">
-          Full Stack Developer passionate about building responsive and modern web applications.
+      <!-- LEFT SIDE -->
+      <div class="col-lg-6 hero-content">
+
+        <p class="hero-small-title">
+          Hello, I'm
         </p>
 
-        <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
-          <a href="#" class="btn btn-primary custom-btn">Hire Me</a>
-          <a href="#" class="btn btn-outline-primary custom-btn">Download CV</a>
-        </div>
-      </div>
+        <h1>
+          Hari Prasath R
+        </h1>
 
-      <div class="col-lg-6 text-center mt-5 mt-lg-0">
-  <img 
-    src="https://raw.githubusercontent.com/Hari-prasath7/portfolio-website/main/AVATHAR%20image.png"
-    class="hero-img img-fluid"
-    alt="Avatar">
-</div>
-
-    </div>
-  </div>
-</section>
-<!-- ================= ABOUT ================= -->
-<section id="about" class="py-20 bg-gray-50 padding">
-  <div class="container">
-    <div class="row align-items-center">
-
-      <!-- Image -->
-      <div class="col-lg-5 text-center mb-4 mb-lg-0">
-  <img 
-    src="https://raw.githubusercontent.com/Hari-prasath7/portfolio-website/main/MY%20PORTFOLIO%20IMAGE.png"
-    class="about-img img-fluid"
-    alt="Hari Prasath R">
-</div>
-
-
-      <!-- Content -->
-      <div class="col-lg-7">
-        <h2 class="text-4xl font-bold text-gray-800 mb-4">
-          About Me
+        <h2>
+          Full Stack Developer
         </h2>
 
-        <p class="text-gray-600 mb-3">
-          I am a passionate Full Stack Developer with strong knowledge in
-          HTML, CSS, Bootstrap, JavaScript, React, Python and Node JS.
+        <p class="hero-description">
+          I build responsive, user-friendly and scalable web
+          applications using modern frontend and backend
+          technologies.
         </p>
 
-        <p class="text-gray-600 mb-4">
-          I love building responsive and user-friendly websites with
-          modern UI design and clean code structure.
-        </p>
 
-        <div class="row mt-4">
-          <div class="col-md-6">
-            <p><strong>Name:</strong> Hari Prasath</p>
-           <p>
-  <strong>Email:</strong> 
-  <a href="mailto:hariprasath2062@gmail.com" class="email-link">
-    hariprasath2062@gmail.com
-  </a>
-</p>
+        <!-- TECHNOLOGY CARDS -->
 
-             <p><strong>Phone No:</strong> 8015529386</p>
+        <div class="hero-tech-list">
+
+          <div class="hero-tech-card">
+            <i class="devicon-react-original colored"></i>
+            <span>React</span>
           </div>
-          <div class="col-md-6">
-            <p><strong>Experience:</strong> Fresher</p>
-            <p><strong>Location:</strong> srivilliputhur,viruthunagar district, TamilNadu ,India</p>
+
+          <div class="hero-tech-card">
+            <i class="devicon-nodejs-plain colored"></i>
+            <span>Node.js</span>
           </div>
+
+          <div class="hero-tech-card">
+            <i class="devicon-express-original"></i>
+            <span>Express.js</span>
+          </div>
+
+          <div class="hero-tech-card">
+            <i class="devicon-mongodb-plain colored"></i>
+            <span>MongoDB</span>
+          </div>
+
+          <div class="hero-tech-card">
+            <i class="devicon-javascript-plain colored"></i>
+            <span>JavaScript</span>
+          </div>
+
         </div>
 
-      
+
+        <!-- HERO BUTTONS -->
+
+        <div class="hero-buttons">
+
+          <a href="#projects" class="primary-button">
+            Explore My Projects
+            <span>→</span>
+          </a>
+
+          <a
+            href="#contact"
+            class="secondary-button"
+          >
+            Contact Me
+            <span>➤</span>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- RIGHT SIDE - MERN VISUAL -->
+
+      <div class="col-lg-6">
+
+        <div class="mern-visual">
+
+          <!-- MERN LABELS -->
+
+          <div class="mern-labels">
+
+            <div>
+              <strong>M</strong>
+
+              <i class="devicon-mongodb-plain colored"></i>
+
+              <span>MongoDB</span>
+            </div>
+
+            <div>
+              <strong>E</strong>
+
+              <i class="devicon-express-original"></i>
+
+              <span>Express.js</span>
+            </div>
+
+            <div>
+              <strong>R</strong>
+
+              <i class="devicon-react-original colored"></i>
+
+              <span>React</span>
+            </div>
+
+            <div>
+              <strong>N</strong>
+
+              <i class="devicon-nodejs-plain colored"></i>
+
+              <span>Node.js</span>
+            </div>
+
+          </div>
+
+
+          <!-- CODE LAPTOP -->
+
+          <div class="laptop">
+
+            <div class="laptop-screen">
+
+              <div class="browser-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div class="code-area">
+
+                <div class="code-sidebar">
+
+                  <div class="side-line"></div>
+                  <div class="side-line"></div>
+                  <div class="side-line short"></div>
+                  <div class="side-line"></div>
+                  <div class="side-line short"></div>
+
+                </div>
+
+                <div class="code-content">
+
+                  <p>
+                    <span class="code-blue">const</span>
+                    app =
+                    <span class="code-yellow">express</span>();
+                  </p>
+
+                  <p>
+                    app.<span class="code-green">get</span>(
+                    <span class="code-red">'/api'</span>,
+                  </p>
+
+                  <p class="indent">
+                    (req, res) =&gt; {
+                  </p>
+
+                  <p class="indent2">
+                    res.<span class="code-green">json</span>({
+                  </p>
+
+                  <p class="indent3">
+                    success:
+                    <span class="code-purple">true</span>
+                  </p>
+
+                  <p class="indent2">
+                    });
+                  </p>
+
+                  <p class="indent">
+                    }
+                  </p>
+
+                  <p>
+                    );
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="laptop-base"></div>
+
+          </div>
+
+
+          <!-- FLOATING CODE ICON -->
+
+          <div class="floating-icon code-icon">
+            &lt;/&gt;
+          </div>
+
+
+          <!-- FLOATING DATABASE -->
+
+          <div class="floating-icon database-icon">
+
+            <i class="devicon-mongodb-plain"></i>
+
+          </div>
+
+
+          <!-- FLOATING API -->
+
+          <div class="floating-icon api-icon">
+            { }
+          </div>
+
+        </div>
+
       </div>
 
     </div>
-  </div>
-</section>
-<!-- ================= PROJECTS ================= -->
-<section id="projects" class="py-20 bg-white padding">
-  <div class="container text-center">
 
-    <h2 class="text-4xl font-bold text-gray-800 mb-12">
-      My Projects
-    </h2>
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT SECTION
+===================================================== -->
+
+<section id="about" class="about-section">
+
+  <div class="container">
+
+    <div class="row align-items-center">
+
+
+      <!-- YOUR PHOTO -->
+
+      <div class="col-lg-5 text-center">
+
+        <div class="about-photo-container">
+
+          <img
+            src="https://raw.githubusercontent.com/Hari-prasath7/portfolio-website/main/MY%20IMAGE.png"
+            class="about-photo"
+            alt="Hari Prasath R"
+          >
+
+        </div>
+
+      </div>
+
+
+      <!-- ABOUT CONTENT -->
+
+      <div class="col-lg-7">
+
+        <div class="about-content">
+
+          <p class="section-label">
+            ABOUT ME
+          </p>
+
+          <h2>
+            Who I Am
+          </h2>
+
+          <div class="heading-line"></div>
+
+          <p>
+            I am a passionate Full Stack Developer who enjoys
+            building modern, responsive and user-friendly web
+            applications.
+          </p>
+
+          <p>
+            I have experience working with frontend technologies
+            such as HTML, CSS, Bootstrap, JavaScript and React,
+            along with backend technologies including Node.js
+            and Express.js.
+          </p>
+
+          <p>
+            I also work with MongoDB and SQL databases and have
+            built complete CRUD-based applications, REST APIs,
+            authentication systems and role-based applications.
+          </p>
+
+          <p>
+            My goal is to continue improving my technical skills
+            while contributing to real-world software projects
+            and growing as a professional developer.
+          </p>
+
+
+          <!-- ABOUT HIGHLIGHTS -->
+
+          <div class="about-highlights">
+
+
+            <!-- FRONTEND -->
+
+            <div class="highlight-card">
+
+              <div class="highlight-icon frontend-icon">
+                <i class="devicon-react-original"></i>
+              </div>
+
+              <div>
+                <h5>Frontend</h5>
+
+                <p>
+                  React & JavaScript
+                </p>
+              </div>
+
+            </div>
+
+
+            <!-- BACKEND -->
+
+            <div class="highlight-card">
+
+              <div class="highlight-icon backend-icon">
+                <i class="devicon-nodejs-plain"></i>
+              </div>
+
+              <div>
+                <h5>Backend</h5>
+
+                <p>
+                  Node.js & Express.js
+                </p>
+              </div>
+
+            </div>
+
+
+            <!-- DATABASE -->
+
+            <div class="highlight-card">
+
+              <div class="highlight-icon database-highlight-icon">
+                <i class="devicon-mongodb-plain"></i>
+              </div>
+
+              <div>
+                <h5>Database</h5>
+
+                <p>
+                  MongoDB & SQL
+                </p>
+              </div>
+
+            </div>
+
+
+            <!-- DEVELOPMENT -->
+
+            <div class="highlight-card">
+
+              <div class="highlight-icon development-icon">
+                &lt;/&gt;
+              </div>
+
+              <div>
+                <h5>Development</h5>
+
+                <p>
+                  REST APIs & CRUD
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     SKILLS SECTION
+===================================================== -->
+
+<section id="skills" class="skills-section">
+
+  <div class="container">
+
+    <div class="section-header">
+
+      <p class="section-label">
+        TECHNICAL SKILLS
+      </p>
+
+      <h2>
+        My Skills
+      </h2>
+
+      <p>
+        Technologies and tools I use to build modern web applications.
+      </p>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+
+      <!-- FRONTEND -->
+
+      <div class="skill-category">
+
+        <div class="skill-category-icon frontend-icon">
+          <i class="devicon-react-original"></i>
+        </div>
+
+        <h3>
+          Frontend
+        </h3>
+
+        <p>
+          HTML • CSS • Bootstrap • JavaScript • React
+        </p>
+
+      </div>
+
+
+      <!-- BACKEND -->
+
+      <div class="skill-category">
+
+        <div class="skill-category-icon backend-icon">
+          <i class="devicon-nodejs-plain"></i>
+        </div>
+
+        <h3>
+          Backend
+        </h3>
+
+        <p>
+          Node.js • Express.js
+        </p>
+
+      </div>
+
+
+      <!-- DATABASE -->
+
+      <div class="skill-category">
+
+        <div class="skill-category-icon database-highlight-icon">
+          <i class="devicon-mongodb-plain"></i>
+        </div>
+
+        <h3>
+          Database
+        </h3>
+
+        <p>
+          MongoDB • SQL
+        </p>
+
+      </div>
+
+
+      <!-- PROGRAMMING -->
+
+      <div class="skill-category">
+
+        <div class="skill-category-icon programming-icon">
+          <i class="devicon-python-plain"></i>
+        </div>
+
+        <h3>
+          Programming
+        </h3>
+
+        <p>
+          JavaScript • Python • Java
+        </p>
+
+      </div>
+
+
+      <!-- TOOLS -->
+
+      <div class="skill-category">
+
+        <div class="skill-category-icon tools-icon">
+          <i class="devicon-github-original"></i>
+        </div>
+
+        <h3>
+          Tools
+        </h3>
+
+        <p>
+          Git • GitHub • Postman • VS Code
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     PROJECTS SECTION
+===================================================== -->
+
+<section id="projects" class="projects-section">
+
+  <div class="container">
+
+    <div class="section-header">
+
+      <p class="section-label">
+        MY WORK
+      </p>
+
+      <h2>
+        Featured Projects
+      </h2>
+
+      <p>
+        A selection of projects that demonstrate my development skills.
+      </p>
+
+    </div>
+
 
     <div class="row g-4">
 
-      <!-- Project 1 -->
-      <!-- Project 1 - Hospital Management System -->
-<div class="col-md-4">
-  <div class="project-card p-4">
-    
-    <h5 class="fw-bold">Hospital Management System</h5>
 
-    <p class="text-muted">
-      A full-stack hospital management system built using the MERN stack.
-      Includes authentication, role-based access, patient management,
-      doctors, appointments, medical records, billing, prescriptions,
-      lab tests, rooms, admissions, staff management and dashboard statistics.
-    </p>
+      <!-- =================================================
+           PROJECT 1
+      ================================================= -->
 
-    <div class="d-flex gap-2 justify-content-center flex-wrap">
-      
-      <a href="https://hospital-management-system-kn7z.onrender.com"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="btn btn-outline-primary btn-sm">
-        Live Demo
-      </a>
-
-      <a href="https://github.com/Hari-prasath7/hospital-management-system"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="btn btn-outline-dark btn-sm">
-        GitHub
-      </a>
-
-    </div>
-
-  </div>
-</div>
-
-      <!-- Project 2 -->
-      <div class="col-md-4">
-        <div class="project-card p-4">
-            <h5 class="fw-bold">Money Manager</h5>
-            <p class="text-muted">
-             Manage your expenses and income in a easy way.
-            </p>
-           <a href="https://moneymanger1.ccbp.tech"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="btn btn-outline-primary btn-sm">
-   View Project
-</a>
-
-        </div>
-      </div>
-
-       <!-- Project 3 -->
-       <div class="col-md-4">
-        <div class="project-card p-4">
-            <h5 class="fw-bold">Royal Enfield</h5>
-            <p class="text-muted">
-              Royal Enfield clone website . To showcase the all bikes and features.
-            </p>
-            <a href="https://royalenfild1.ccbp.tech"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="btn btn-outline-primary btn-sm">
-   View Project
-</a>
-
-        </div>
-      </div>
-
-       <!-- Project 4 -->
-      <div class="col-md-4">
-        <div class="project-card p-4">
-            <h5 class="fw-bold">Samsung mobile Clone</h5>
-            <p class="text-muted">
-             Manage your expenses and income in a easy way.
-            </p>
-            <a href="https://samsungclone.ccbp.tech"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="btn btn-outline-primary btn-sm">
-   View Project
-</a>
-
-        </div>
-      </div>
-
-       <!-- Project 5 -->
-      <div class="col-md-4">
-        <div class="project-card p-4">
-            <h5 class="fw-bold">Todo List</h5>
-            <p class="text-muted">
-             A to-do list is a simple tool used to organize and track tasks that need to be completed within a specific time.
-            </p>
-            <a href="https://todoactivity7.ccbp.tech"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="btn btn-outline-primary btn-sm">
-   View Project
-</a>
-
-        </div>
-      </div>
-      
-      
-    
-    </div>
-  </div>
-</section>
-    
-
-     
-
-<!-- ================= SKILLS ================= -->
-<section id="skills" class="py-20 bg-white padding">
-  <div class="container">
-
-    <h2 class="text-center mb-5 fw-bold">
-      My Skills
-    </h2>
-
-    <div class="row">
-
-      <!-- Skill Item -->
-      <div class="col-md-6 mb-4">
-        <div class="skill-box">
-          <div class="d-flex justify-content-between">
-            <span>HTML</span>
-            <span>95%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" style="width:95%"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="skill-box">
-          <div class="d-flex justify-content-between">
-            <span>CSS</span>
-            <span>91%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" style="width:91%"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="skill-box">
-          <div class="d-flex justify-content-between">
-            <span>Bootstrap</span>
-            <span>90%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" style="width:90%"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="skill-box">
-          <div class="d-flex justify-content-between">
-            <span>JavaScript</span>
-            <span>85%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" style="width:85%"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="skill-box">
-          <div class="d-flex justify-content-between">
-            <span>React</span>
-            <span>80%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" style="width:80%"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="skill-box">
-          <div class="d-flex justify-content-between">
-            <span>Python</span>
-            <span>87%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" style="width:87%"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="skill-box">
-          <div class="d-flex justify-content-between">
-            <span>Node JS</span>
-            <span>80%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" style="width:80%"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="skill-box">
-          <div class="d-flex justify-content-between">
-            <span>Express JS</span>
-            <span>80%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" style="width:80%"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="skill-box">
-          <div class="d-flex justify-content-between">
-            <span>SQL</span>
-            <span>90%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" style="width:90%"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="skill-box">
-          <div class="d-flex justify-content-between">
-            <span>MongoDB</span>
-            <span>80%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" style="width:80%"></div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ================= CONTACT ================= -->
-<section id="contact" class="py-20 bg-gray-50 padding">
-  <div class="container text-center">
-
-    <h2 class="text-4xl font-bold text-gray-800 mb-4">
-      Contact Me
-    </h2>
-
-    <p class="text-gray-600 mb-5">
-      Feel free to reach out for collaboration or job opportunities.
-    </p>
-
-    <div class="row justify-content-center">
       <div class="col-lg-6">
 
-        <form class="contact-form">
+        <div class="project-card featured-project">
 
-          <input type="text" class="form-control mb-3"
-                 placeholder="Your Name" required>
+          <div class="project-top">
 
-          <input type="email" class="form-control mb-3"
-                 placeholder="Your Email" required>
+            <span class="project-badge mern-badge">
+              MERN STACK PROJECT
+            </span>
 
-          <textarea class="form-control mb-3"
-                    rows="5"
-                    placeholder="Your Message"
-                    required></textarea>
+          </div>
 
-          <button type="submit" class="btn btn-primary custom-btn w-100">
-            Send Message
-          </button>
+          <h3>
+            Hospital Management System
+          </h3>
 
-        </form>
+          <p>
+            A complete full-stack hospital management application
+            developed using the MERN stack. The system includes
+            authentication, role-based access, patient management,
+            doctor management, appointments, medical records,
+            billing, prescriptions, laboratory tests, rooms,
+            admissions, staff management and dashboard statistics.
+          </p>
+
+
+          <div class="project-tech">
+
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>MongoDB</span>
+            <span>REST API</span>
+            <span>JWT</span>
+
+          </div>
+
+
+          <div class="project-buttons">
+
+            <a
+              href="https://hospital-management-system-kn7z.onrender.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-live-button"
+            >
+              Live Demo →
+            </a>
+
+            <a
+              href="https://github.com/Hari-prasath7/hospital-management-system"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-github-button"
+            >
+              GitHub
+            </a>
+
+          </div>
+
+        </div>
 
       </div>
+
+
+      <!-- =================================================
+           PROJECT 2
+      ================================================= -->
+
+      <div class="col-lg-6">
+
+        <div class="project-card featured-project">
+
+          <div class="project-top">
+
+            <span class="project-badge frontend-badge">
+              FRONTEND PROJECT
+            </span>
+
+          </div>
+
+          <h3>
+            Money Manager
+          </h3>
+
+          <p>
+            A responsive frontend application designed to help
+            users manage income and expenses in a simple and
+            organized way.
+          </p>
+
+
+          <div class="project-tech">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Bootstrap</span>
+            <span>JavaScript</span>
+            <span>React</span>
+
+          </div>
+
+
+          <div class="project-buttons">
+
+            <a
+              href="https://moneymanger1.ccbp.tech"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-live-button"
+            >
+              Live Demo →
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           PROJECT 3
+      ================================================= -->
+
+      <div class="col-lg-4">
+
+        <div class="project-card small-project">
+
+          <div class="small-project-icon">
+            🏍️
+          </div>
+
+          <h3>
+            Royal Enfield
+          </h3>
+
+          <p>
+            Royal Enfield clone website showcasing bikes,
+            features and a modern responsive interface.
+          </p>
+
+          <a
+            href="https://royalenfild1.ccbp.tech"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="small-project-link"
+          >
+            View Project →
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           PROJECT 4
+      ================================================= -->
+
+      <div class="col-lg-4">
+
+        <div class="project-card small-project">
+
+          <div class="small-project-icon">
+            📱
+          </div>
+
+          <h3>
+            Samsung Mobile Clone
+          </h3>
+
+          <p>
+            Responsive Samsung-inspired mobile website
+            created to practice frontend development.
+          </p>
+
+          <a
+            href="https://samsungclone.ccbp.tech"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="small-project-link"
+          >
+            View Project →
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           PROJECT 5
+      ================================================= -->
+
+      <div class="col-lg-4">
+
+        <div class="project-card small-project">
+
+          <div class="small-project-icon">
+            ✅
+          </div>
+
+          <h3>
+            Todo List
+          </h3>
+
+          <p>
+            A simple task management application for organizing
+            and tracking daily activities.
+          </p>
+
+          <a
+            href="https://todoactivity7.ccbp.tech"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="small-project-link"
+          >
+            View Project →
+          </a>
+
+        </div>
+
+      </div>
+
     </div>
 
   </div>
+
 </section>
 
-<!-- ================= FOOTER ================= -->
-<footer class="footer py-4 text-center padding">
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="section-padding contact-section">
+
+<div class="container">
+
+    <div class="contact-box text-center">
+
+        <p class="section-label">
+            GET IN TOUCH
+        </p>
+
+        <h2>
+            Let's Connect
+        </h2>
+
+        <p class="contact-description">
+
+            I'm open to opportunities, collaborations and
+            interesting software development projects.
+
+        </p>
+
+
+        <div class="contact-links">
+
+
+            <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=hariprasath2062@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="contact-link">
+
+    <span class="contact-icon">
+        ✉
+    </span>
+
+    <span>
+
+        <strong>Email</strong>
+
+        hariprasath2062@gmail.com
+
+    </span>
+
+</a>
+
+            <a
+                href="tel:+918015529386"
+                class="contact-link">
+
+                <span class="contact-icon">
+                    ☎
+                </span>
+
+                <span>
+
+                    <strong>Phone</strong>
+
+                    +91 8015529386
+
+                </span>
+
+            </a>
+
+
+            <a
+                href="https://github.com/Hari-prasath7"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link">
+
+                <span class="contact-icon github-icon">
+                    GH
+                </span>
+
+                <span>
+
+                    <strong>GitHub</strong>
+
+                    Hari-prasath7
+
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
   <div class="container">
-    <p class="mb-0">
-      © 2026 Hari Prasath | All Rights Reserved
-    </p>
+
+    <div class="footer-content">
+
+      <h3>
+        Hari Prasath R
+      </h3>
+
+      <p>
+        Full Stack Developer
+      </p>
+
+      <div class="footer-links">
+
+        <a
+          href="https://github.com/Hari-prasath7"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+
+        <a href="mailto:hariprasath2062@gmail.com">
+          Email
+        </a>
+
+      </div>
+
+      <p class="copyright">
+        © 2026 Hari Prasath R. All Rights Reserved.
+      </p>
+
+    </div>
+
   </div>
+
 </footer>
+
+
+<!-- Bootstrap JS -->
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
+
+<!-- Scroll Reveal -->
+
 <script>
-  ScrollReveal().reveal('section', {
-    distance: '60px',
-    duration: 1200,
-    easing: 'ease-in-out',
-    origin: 'bottom',
-    interval: 200
-  });
+
+  ScrollReveal().reveal(
+    '.hero-content, .mern-visual, .about-photo-container, .about-content, .skill-category, .project-card',
+    {
+      distance: '50px',
+      duration: 1000,
+      easing: 'ease-out',
+      origin: 'bottom',
+      interval: 100,
+      reset: false
+    }
+  );
+
 </script>
 
 </body>
