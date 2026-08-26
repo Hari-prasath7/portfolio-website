@@ -1097,4 +1097,15 @@ font-size: 12px;
         flex-wrap: wrap;
     }
 
+} 
+/* =====================================================
+   HIDE MERN VISUAL ON MOBILE
+===================================================== */
+
+@media (max-width: 767px) {
+
+  .mern-visual {
+    display: none;
+  }
+
 }
